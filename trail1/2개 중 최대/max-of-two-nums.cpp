@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    cin >> a >> b;
+
+    c = a>=b ? a : b;
+    cout << c;
+    // Please write your code here.
+    return 0;
+}
